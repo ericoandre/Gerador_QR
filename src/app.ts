@@ -1,7 +1,7 @@
 import prompt from "prompt";
 
 // conf prompt 
-import confPrompt from "./prompts/promptSchema";
+import confPrompt from "./promptsSchema/promptSchema";
 
 // services
 import createQrCode from "./services/qrTerminal/create";

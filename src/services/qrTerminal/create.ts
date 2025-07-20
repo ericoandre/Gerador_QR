@@ -3,7 +3,7 @@ import prompt from "prompt";
 import handle from "./handler";
 
 // conf promptQrcode
-import confPromptQrcode from "../../prompts/qrcodeSchema";
+import confPromptQrcode from "../../promptsSchema/qrcodeSchema";
 
 const createQrCode = async () => {
     prompt.get(confPromptQrcode,  handle);
